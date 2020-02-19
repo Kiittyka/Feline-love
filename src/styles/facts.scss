@@ -1,0 +1,12 @@
+$black: hsl(200, 40, 10);
+$base-font-size: 1rem;
+$base-line-height: 2rem;
+
+.ludwig {
+    position: relative;
+    padding-left: 1em;
+    border-left: 0.2em solid lighten($black, 40%);
+    font-size: $base-font-size;
+    line-height: $base-line-height;
+    font-weight: 100;  
+}
