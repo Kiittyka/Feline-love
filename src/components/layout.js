@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './header'
 import Footer from './footer'
 import { Helmet } from "react-helmet"
-import layoutStyles from './layout.module.scss'
+import * as layoutStyles from './layout.module.scss'
 import "../styles/index.scss"
 
 const Layout = (props) => {
